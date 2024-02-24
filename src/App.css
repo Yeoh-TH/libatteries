@@ -1,0 +1,51 @@
+:root{
+  --vanilla: #D0DB97;
+  --emrald: #69B578;
+  --fernGreen: #3A7D44;
+  --raisinBlack: #181D27;
+  --polyGreen: #254D32;
+}
+
+canvas{
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: -1;
+}
+main{
+  position: absolute;
+}
+
+h1{
+  font-size: 2vw;
+}
+
+#interface{
+  background-color: var(--emrald);
+  color: var(--raisinBlack);
+  border-radius: 1vw;
+  padding: 10px;
+}
+
+#firstPara{
+  display: block;
+  transition: display 0.5s ease-in-out;
+}
+
+#secondPara{
+  display: none;
+  transition: display 0.5s ease-in-out;
+}
+
+#dotCross{
+  margin-top: 100px;
+  display: none;
+  transition: display 0.5s ease-in-out;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.gone{
+  display: none;
+}

@@ -4,6 +4,7 @@
   --fernGreen: #3A7D44;
   --raisinBlack: #181D27;
   --polyGreen: #254D32;
+  font-family: Inter, system-ui, Avenir;
 }
 
 canvas{
@@ -44,6 +45,15 @@ h1{
   width: 100%;
   text-align: center;
   height: 100%;
+}
+
+#finalPicCredits{
+  display: none;
+  font-size: 2vw;
+  color: var(--polyGreen);
+  background-color: var(--vanilla);
+  border-radius: 10px;
+  padding: 1vw;
 }
 
 .gone{

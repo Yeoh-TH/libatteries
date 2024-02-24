@@ -8,6 +8,7 @@ function main(){
         const secondPara = document.getElementById('secondPara');
         const dotCross = document.getElementById('dotCross');
         const interfaces = document.getElementById('interface');
+        const credits = document.getElementById('finalPicCredits');
 
         const scene = new THREE.Scene();
 
@@ -174,9 +175,11 @@ function main(){
             if(distance<6){
                 interfaces.style.display = 'none';
                 dotCross.style.display= 'block';
+                credits.style.display = 'block'
             }else{
                 interfaces.style.display = 'block';
                 dotCross.style.display= 'none';
+                credits.style.display = 'none';
             }
             
         });

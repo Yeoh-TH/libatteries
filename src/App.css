@@ -1,4 +1,4 @@
-:root{
+:root {
   --vanilla: #D0DB97;
   --emrald: #69B578;
   --fernGreen: #3A7D44;
@@ -7,45 +7,51 @@
   font-family: Inter, system-ui, Avenir;
 }
 
-canvas{
+canvas {
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
   z-index: -1;
 }
-main{
+
+main {
   position: absolute;
 }
 
-button{
+button {
   text-decoration: none;
   background-color: var(--vanilla);
   border-radius: 10px;
   font-size: 2vw;
 }
 
-h1{
+h1 {
   font-size: 2vw;
 }
 
-#interface{
+#interface {
   background-color: var(--emrald);
   color: var(--raisinBlack);
   border-radius: 1vw;
   padding: 10px;
 }
 
-#firstPara{
+#firstPara {
   display: block;
   transition: display 0.5s ease-in-out;
 }
 
-#secondPara{
+#secondPara {
   display: none;
   transition: display 0.5s ease-in-out;
 }
 
-#dotCross{
+#thirdPara {
+  display: none;
+  transition: display 0.5s ease-in-out;
+}
+
+#dotCross {
   margin-top: 100px;
   display: none;
   transition: display 0.5s ease-in-out;
@@ -54,7 +60,7 @@ h1{
   height: 100%;
 }
 
-#finalPicCredits{
+#finalPicCredits {
   display: none;
   font-size: 2vw;
   color: var(--polyGreen);
@@ -63,6 +69,6 @@ h1{
   padding: 1vw;
 }
 
-.gone{
+.gone {
   display: none;
 }

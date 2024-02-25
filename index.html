@@ -1,36 +1,53 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lithium-ion batteries</title>
-  </head>
-  <body>
-    <script type="module" src="/src/App.jsx"></script>
-    <style type="module" src="/src/App.css"></style>
-    <main>
-      <canvas id="bg"></canvas>
-      <div id="interface">
-        <div id="firstPara">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lithium-ion batteries</title>
+</head>
+
+<body>
+  <script type="module" src="/src/App.jsx"></script>
+  <style type="module" src="/src/App.css"></style>
+  <main>
+    <canvas id="bg"></canvas>
+    <div id="interface">
+      <div id="firstPara">
         <h1>Hi!</h1>
-        <p >Choose which terminal to dive deeper!</p>
+        <p>Choose which terminal to dive deeper!</p>
         <button id="positive">Positive</button>
         <button id="negative">Negative</button>
-        </div>
-        <div id="secondPara">
-          <h1 >As you can see...</h1>
-          <p >In Graphite, each carbon atom is covalently bonded to three other carbon atoms</p>
-          <p>Thus, it has a giant covalent hexagonal structure, 
-            <br/>and with weak intermolecular forces of attraction between oppositely charged ions, 
-            <br/>causing it to be a good conductor of electricity, and a good choice as an anode material
-            <br/>Zoom out to see the full picture again
-          </p>
-        </div>
-          <img src="src/assets/li-ion_battery@2x.webp" width="200px"></img>
       </div>
-    </main>
-    <img id="dotCross" src="src/assets/li-ion_battery@2x.webp"></img>
-    <p id="finalPicCredits">This inforgraphic was coded by YeohTH, with help from group members Bryan and Janelle :D</p>
-  </body>
+      <div id="secondPara">
+        <h1>As you can see...</h1>
+        <p>In Graphite, each carbon atom is covalently bonded to three other carbon atoms</p>
+        <p>Thus, it has a giant covalent hexagonal structure in hexagonal layers,
+          <br />one valence electron per carbon atom is delocalised within the structure;
+          <br />these electrons are free to move to carry charges to conduct electricity
+          <br />causing it to be a good conductor of electricity, and a good choice as
+          <br />an anode material
+        </p>
+        <img src="src/assets/li-ion_battery@2x.webp" width="400px"></img>
+        <p>Zoom out to see the full picture again</p>
+      </div>
+      <div id="thirdPara">
+        <h1>As you can see...</h1>
+        <p>In Silicon Carbide, one silicon atom and a carbon atom form 4 covalent bonds</p>
+        <p>Thus, it has a giant covalent tetrahedral structure, with each silicon and
+          <br />carbon atom having strong intermolecular forces of attraction, thus
+          <br />conducting electricity well, something that is needed in a battery.
+          <br />However unlike graphite, it can be considered a semiconductor as
+          <br />due to its energy levels in its valence shells, it does not conduct
+          <br />electricty as well due to being unable to transfer charges as fast.
+        </p>
+        <img src="src/assets/siliconCarbide.png" width="400px"></img>
+      </div>
+    </div>
+  </main>
+  <img id="dotCross" src="src/assets/li-ion_battery@2x.webp"></img>
+  <p id="finalPicCredits">This inforgraphic was coded by YeohTH, with help from group members Bryan and Janelle :D</p>
+</body>
+
 </html>

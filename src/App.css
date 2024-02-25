@@ -17,6 +17,13 @@ main{
   position: absolute;
 }
 
+button{
+  text-decoration: none;
+  background-color: var(--vanilla);
+  border-radius: 10px;
+  font-size: 2vw;
+}
+
 h1{
   font-size: 2vw;
 }

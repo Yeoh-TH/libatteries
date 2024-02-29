@@ -229,9 +229,9 @@ function main() {
     electron39.position.set(-20, -20, 30);
     scene.add(electron39);
 
-    const electron11 = electron.clone();
-    electron11.position.set(20, 20, 80);
-    scene.add(electron11);
+    // const electron11 = electron.clone();
+    // electron11.position.set(20, 20, 80);
+    // scene.add(electron11);
 
     graphite.add(intermolecularForces2);
     graphite.add(carbon);
